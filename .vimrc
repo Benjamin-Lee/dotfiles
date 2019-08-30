@@ -16,6 +16,7 @@ filetype plugin indent on    " required
 syntax enable
 set number
 set directory^=$HOME/.vim/swap// "keep the annoying swap files out of wherever I'm working
+set showcmd " to show the command that is being written
 " change the gitgutter sign colors
 highlight GitGutterAdd ctermfg=40
 highlight GitGutterChange ctermfg=6
